@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" href ="favicon.ico" type = "image/x-icon">    
+<title>ČISTIJE SUTRA</title>
+<link rel="stylesheet" href="style.css">
+<script src="./script.js"></script>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <div class="container">
+            <div class="logo-box">
+                <a href="index.html">
+                    <img src="slovni2.png" class="logo" >
+                </a>
+            </div>
+           <nav>
+               <ul> 
+                   <li><a  href="onama.html">O NAMA</a></li>
+                   <li><a  href="kontak.html">KONTAKT</a></li>
+                   <li><a  href="obavestenja.html">OBAVEŠTENJA</a></li> 
+                   <li><a class="jezik" href="kontakeng.html"><img src="us.svg" class="zastava"/></a></li>
+               </ul>
+           </nav>
+        </div>
+    </header>
+<div class=" cek centar ">
+    <div class="kontaktnasl"><h1 class="kontaktnasl">KONTAKTIRAJTE NAS</h1></div>
+    <div class="glavnideo">
+    <div class="forma" name="forma">
+        <form name="myForm" >
+            <label for="name">Ime:</label><br>
+            <input type="text" id="name" name="name" placeholder="Ime" onkeyup="validnoIme(this)"><br>
+            <div class="error">
+                <p id="nameerror"></p>
+            </div>
+            <label for="name">Prezime:</label><br>
+            <input type="text" id="name" name="name" placeholder="Prezime" onkeyup="validnoPrezime(this)"><br>
+            <div class="error">
+                <p id="surnameerror"></p>
+            </div>
+            <label for="email">Email:</label><br>
+            <input type="text" id="izraz" name="email" placeholder="Email" onkeyup="validanMejl(this)"><br>
+            <div class="error">
+                <p id="mailerror"></p>
+            </div>
+            <label for="fname">Vaša poruka:</label><br> 
+            <textarea type="text" id="poruka" name="poruka" placeholder="Tekst Vaše poruke" onkeyup="validnaPoruka(this)"></textarea><br>
+            <div class="error">
+                <p id="porerror"></p>
+            </div>
+            <button type="submit" class="btn btn-secondary" id="btn">POŠALJI</button>
+          </form>
+          
+    </div>
+    <div class="kontakti">
+           <p>Pored našeg e-maila, <a>cistije.sutra@gmail.com</a>, možete nas kontaktirati i preko naših stranica na društvenim mrežama:</p>
+           <a href="https://www.instagram.com/cistije_sutra/" target=”_blank”><p>INSTAGRAM<br>cistije_sutra</p></a>
+           <a href="https://www.facebook.com/profile.php?id=100074367084314" target=”_blank”><p>FACEBOOK<br>Čistije Sutra</p></a>
+           <a href="https://twitter.com/cistije_sutra" target=”_blank”><p>TWITTER<br>cistije_sutra</p></a>
+    </div>
+    
+    </div>
+</div>
+<footer>
+    <div class="container" > 
+      <div  class="logo-box" id="obavestenja">
+        <a  href="obavestenja.html"><img src="pisamce.png" class="sl slikica1" alt="pismo">
+            <p class="sl">Prijavite se za redovna obaveštenja!</p></a>   
+      </div>
+      <nav>
+          <ul>
+              <li><a href="https://www.instagram.com/cistije_sutra/" target=”_blank”><img src="instalg.png" class="sl slikica2" alt="instagram logo" ></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100074367084314" target=”_blank”><img src="fejslg.png" class="sl slikica2" alt="facebook logo" ></a></li>
+              <li><a href="https://twitter.com/cistije_sutra" target=”_blank”><img src="twlg.png" class="sl slikica2" alt="twitter logo" ></a></li>
+          </ul>
+         </nav>
+         <div class="vue">
+            <p>Ovaj sajt održava <a href="vuestr.html" target=”_blank”>NAŠ TIM</a></p>
+         </div>
+        </footer>
+</body>
+</html>
